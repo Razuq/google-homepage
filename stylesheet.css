@@ -1,0 +1,179 @@
+#content {
+	width: 800px;
+	margin: 0 auto;
+	padding-top: 190px;
+	font-family: arial, sans-serif;
+}
+
+a {
+	color: #12c;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #609;
+}
+
+#logo {
+	width: 269px; height: 95px;
+	background: url("https://www.google.se/images/srpr/logo11w.png") no-repeat;
+	background-size: 269px 95px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+#search {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#search span {
+	text-align: center;
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+}
+
+#search_field {
+	border: 1px solid #d9d9d9;
+	border-top-color: #c0c0c0;
+	width: 570px; height: 28px;
+	margin: auto;
+	
+}
+
+#search_field:hover {
+	border: 1px solid #b9b9b9;
+	border-top-color: #a0a0a0;
+}
+
+#voice_search {
+	background: url(data:image/gif;base64,R0lGODlhHAAmAKIHAKqqqsvLy0hISObm5vf394uLiwAAAP///yH5BAEAAAcALAAAAAAcACYAAAO9eLpMIMYIQJi9DcYtKv6KtnHgB4yoAZSXKAyDy1rjoAzjzOQLrx8+4OanCAZnxiExGSEKmz3lj2lwUq3SZ3WZPbKuXGgxu9t4tLYDTkpIRQILF0x2G4lWipM7gj/oJQUkcXsCDCIFATULBCIcZ2tvB3QLDxETFnR/BgU/gRt9jX0gnpYMkJZpFzEoqQqJKAIBaQOVKHAXr3t7txgBjboSvB8EpLoFZywOAo3LFE5lYs/QW9LT1TRk1V7S2xYJADs=) no-repeat;
+	background-size:14px 19px;
+	width:17px; height:23px;
+	margin-top: 4px;
+	float: right;
+	opacity: .55;
+	}
+
+input.search_field {
+	width: 80%;
+	display: block;
+	margin: 5px auto 0 8px;
+	border: none;
+	float: left;
+}
+
+input.search_field:focus {
+	outline: none;
+	border: none;
+}
+
+span input {
+	height: 29px;
+	line-height: 27px;
+	background-color: #f5f5f5;
+	border: 1px solid rgba(0,0,0,0.1);
+	color: #444;
+	font-family: arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 0 8px;
+	margin: 15px 6px;
+	border-radius: 2px;
+}
+
+#lan {
+	width: 300px;
+	text-align: center;
+	font-size: 13px;
+	margin: auto;
+}
+
+#nav_bar {
+	float: right;
+}
+
+#nav_bar ul {
+	list-style-type: none;
+}
+
+#nav_bar li {
+	float: left;
+	margin-right: 10px;
+}
+
+#login a {
+	background-color: #4387fd;
+	-webkit-linear-gradient(top,#4387fd,#4683ea);
+	color: #fff;
+	font-weight: bold;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	padding: 7px 11px;
+	border-radius: 2px;
+}
+
+#apps {
+	position: relative;
+	top: -5px;
+	width: 30px; height: 30px;
+	background: url(https://ssl.gstatic.com/gb/images/i1_0430b5ba.png);
+	background-position: -132px -38px;
+	background-size: 528px 68px;
+	opacity: .55;
+}
+
+li {
+	font-family: arial;
+}
+
+li > a {
+	color: #444;
+}
+
+li > a:visited {
+	color: #555;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%; height: 35px;
+	background: #f2f2f2;
+	border-top:1px solid #e4e4e4;
+	margin-left: -10px;
+}
+
+#right {
+	float: right;
+	margin-right: 30px;
+	margin-top:8px;
+}
+
+#right a {
+	margin-left: 16px;
+}
+
+#left {
+	float: left;
+	margin-left: 30px;
+	margin-top: 8px;
+}
+
+#left a {
+	margin-right: 16px;
+}
+
+#left a, #right a {
+	color: #666;
+}
+
+
+
